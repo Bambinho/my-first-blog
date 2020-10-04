@@ -119,7 +119,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
-
+LOGIN_REDIRECT_URL = '/'
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 <<<<<<< HEAD
@@ -129,5 +129,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 =======
 #so that when the login page is accessed directly, it will redirect a successful login to the top-level index (the homepage of our blog).
 
+<<<<<<< HEAD
 LOGIN_REDIRECT_URL = '/'
 >>>>>>> f4d3ab5c7c7cd70ac9635b8367bfbd85bafa1cb6
+=======
+#LOGIN_REDIRECT_URL = '/'
+>>>>>>> ff398db9248224df45830e7438de7e660011833a
