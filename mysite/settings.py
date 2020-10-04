@@ -21,8 +21,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-#SECRET_KEY = 'g$x5ik411_o-t#i#e67s=%l!h^a06_b-j*)r*i9s))!dbo#q7c'
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = 'g$x5ik411_o-t#i#e67s=%l!h^a06_b-j*)r*i9s))!dbo#q7c'
+#SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -122,16 +122,6 @@ USE_TZ = True
 LOGIN_REDIRECT_URL = '/'
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-<<<<<<< HEAD
-
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-=======
 #so that when the login page is accessed directly, it will redirect a successful login to the top-level index (the homepage of our blog).
-
-<<<<<<< HEAD
-LOGIN_REDIRECT_URL = '/'
->>>>>>> f4d3ab5c7c7cd70ac9635b8367bfbd85bafa1cb6
-=======
-#LOGIN_REDIRECT_URL = '/'
->>>>>>> ff398db9248224df45830e7438de7e660011833a
